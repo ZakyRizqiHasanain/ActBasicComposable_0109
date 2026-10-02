@@ -57,6 +57,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "Zaky Rizqi Hasanain",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
         }
     }
 }
