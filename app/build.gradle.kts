@@ -44,9 +44,11 @@ dependencies {
     implementation(libs.androidx.runtime)
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.text)
+    implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.material)
     implementation("androidx.activity:activity-compose:1.9.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    debugImplementation(libs.androidx.ui.tooling)
 }
