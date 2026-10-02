@@ -13,6 +13,14 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            PAM_Prak2Theme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    //Panggil composable layout utama dengan padding dari Scaffold
+                    TataletakBoxColumnRow(
+                        modifier = Modifier.padding(innerPadding)
+                    )
+                }
+            }
         }
     }
 }
